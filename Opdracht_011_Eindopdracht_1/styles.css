@@ -1,0 +1,441 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+
+/* index */
+
+.container {
+    display: grid;
+    grid-template-rows: 568px auto 800px;
+}
+.indexheader {
+    background-color: #7187A7;
+    height: 568px;
+}
+.card {
+    height: 484px;
+    width: 260px;
+    margin: 26px auto;
+    padding-top: 30px;
+    padding-left: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.portfolio {
+    float: right;
+    margin-right: 25px;
+    margin-top: 64px;
+    line-height: 34px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    color: #7187A7;
+}
+.rob {
+    margin-top: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 0px;
+}
+.graf {
+    margin-top: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 10px;
+}
+.vorm {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+.web {
+    margin: 0;
+    margin-left: 2px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+}
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+hr {
+    border: 3px solid #7187A7;
+    width: 125px;
+    margin-left: 0;
+}
+.nav1 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    list-style-type: none;
+}
+.nav1 a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+}
+.nav1 a:hover{
+    color: #7187A7;
+}
+main img {
+    width: 100%;
+    height: auto;
+}
+.sticky {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: +1;
+}
+main nav a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    margin: 15px;
+    line-height: 60px;
+}
+main nav a:hover {
+    color: #7187A7;
+}
+aside {
+    margin-top: -4px;
+    background-color: #7187A7;
+    position: sticky;
+    top: 0px;
+    z-index: +2;
+}
+aside p {
+    color: white;
+    margin: 15px;
+    font-family: 'Special Elite', cursive;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 1px;
+}
+.steve {
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    line-height: 0;
+}
+.quote {
+    font-size: 72px;
+    line-height: 10px;
+}
+footer {
+    margin: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+.contact {
+    margin-top: 0px;
+    font-size: 36px;
+    font-weight: 100;
+}
+.adres {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 25px;
+    color: #7187A7;
+}
+.copyright {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 25px;
+    color: #7187A7;
+}
+footer section a {
+    display: inline-block;
+    margin-right: 12px;
+}
+input {
+    width: 270px;
+    height: 30px;
+    color: #7187A7;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: #e5eefc;
+    padding-left: 10px;
+}
+textarea {
+    width: 270px;
+    height: 250px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #7187A7;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: #e5eefc;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+button {
+    width: 50px;
+    height: 50px;
+    color: white;
+    border-width: 0px;
+    border-radius: 5px;
+    background-color: #34455e;
+}
+button:hover {
+    background-color: #7187A7;
+}
+
+
+/* food, foto, marketing, web */
+
+.navtop {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    padding-inline-start: 0px;
+    list-style-type: none;
+}
+.navtop a {
+    text-decoration: none;
+    color: #000000;
+}
+.navtop a:hover {
+    color: #7187A7;
+}
+.picscontainer {
+    position: relative;
+    width: 100%;
+}
+.pics img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #2b3e5c;
+}
+.picscontainer:hover .overlay {
+    opacity: 0.9;
+}
+.overlaytext {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.boxfood {
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+    background-color: #7187A7;  
+}
+.boxfoto {
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+    background-color: #7187A7;  
+}
+.boxmarketing {
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+    background-color: #7187A7;  
+}
+.boxweb {
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+    background-color: #7187A7;  
+}
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: auto 0;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 48px;
+}
+
+
+/* web */
+
+iframe {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 1024px) {
+
+    /* index */
+
+    .container {
+        grid-template-columns: repeat(12, auto);
+        grid-template-rows: 644px auto 550px;
+    }
+    .indexheader {
+        grid-column: 1 / -1;
+        background-image: url(pics/opzetloep.jpg);
+        background-size: 100vw;
+        background-color: transparent;
+        width: 100vw;
+        height: auto;
+    }
+    .noimg {
+        display: none;
+    }
+    .card {
+        float: right;
+        margin-top: 50px;
+        margin-right: 250px;
+    }
+    main {
+        width: 100vw;
+        grid-column: 1 / -1;
+    }
+    main nav p {
+        box-sizing: border-box;
+        display: inline-flex;
+        height: 400px;
+        margin-right: -4px;
+        padding-left: 20px;
+        padding-top: 250px;
+    }
+    main nav a {
+        font-size: 24px;
+        font-weight: 400;
+        color: white;
+    }
+    main nav a:hover {
+        color: black;
+    }
+    .foodback {
+        background-color: #1468A8;
+        width: 25vmax;
+    }
+    .fotoback {
+        background-color: #7187A7;
+        width: 25vmax;
+    }
+    .marketingback {
+        background-color: #5c697b;
+        width: 25vmax;
+    }
+    .webback {
+        background-color: #5a7972;
+        width: 25vmax;
+    }
+    .sticky {
+        top: -200px;
+    }
+    aside p br {
+        display: none;
+    }
+    .indexfooter {
+        grid-column: 1 / -1;
+    }
+    .indexfooter section {
+        display: grid;
+        grid-template: 50px 60px 100px 30px / repeat(12, 1fr);
+    }
+    .contact {
+        grid-area: 2 / 2;
+    }
+    .adres {
+        grid-area: 3 / 2 / 3 / 6;
+    }
+    .logos {
+        grid-area: 4 / 2 / 4 / 4;
+    }
+    .copyright {
+        grid-area: 5 / 2 / 5 / 4;
+    }
+    .formulier {
+        grid-area: 2 / 6 / 2 / 11;
+    }
+    input {
+        width: 400px;
+    }
+    textarea {
+        width: 400px;
+        height: 150px;
+    }
+
+
+    /* food, foto, marketing, web */
+
+    .navtop {
+        justify-content: flex-start;
+    }
+    .navtop li {
+        margin-right: 30px;
+        font-size: 20px;
+    }
+    section {
+        display: grid;
+        grid-template: auto / 33.33% 33.33% 33.33%;
+    }
+    .boxfood {
+        background-color: #1468A8;
+    }
+    .boxfoto {
+        background-color: #7187A7;
+    }
+    .boxmarketing {
+        background-color: #5c697b;
+    }
+    .boxweb {
+        background-color: #5a7972;
+    }
+    iframe {
+        grid-column: 2;
+    }
+}
